@@ -1,0 +1,195 @@
+/* ---------- general ------------ */
+body {
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+.co-pnk{
+    color: #F18B6D;
+}
+.co-yellow{
+    color: #F1D204;
+}
+.co-bnfsg{
+    color: #6A4D89;
+}
+.bg-bnfsg{
+    background-color: #6A4D8A;
+}
+.text-gray{
+    color: #8C9578;
+}
+/* ---------- end general ------------ */
+/* ----------  header ------------ */
+.header {
+    background-image: url(../images/images/front-page/front-page-header.jpg);
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.header li a:hover {
+    color: #FFDE00 !important;
+}
+.header .box1{
+    margin-top: 150px;
+    font-size: 6vw;
+}
+.header p i{
+    font-size: small;
+    color: #FFDE00 ;
+}
+.header button{
+    font-size:30px;
+    /* margin: 10px 50px; */
+    /* margin: auto; */
+    
+}
+.header .btn-warning:hover{
+    background-color: #6A4D89;
+    border: #6A4D89;
+}
+.header .btn-outline-secondary{
+    background-color: rgba( 0, 0, 0, .2 ) !important;
+}
+.header .btn-outline-secondary:hover{
+    background-color:transparent !important;
+}
+/* ---------- end header ------------ */
+/* ----------  about ------------ */
+.about h1{
+    font-size: 5vw;
+}
+.about p{
+    font: 1vw;
+}
+.about .box2{
+    color: #F18B6D ;
+    
+    position: absolute;
+    top: -2.5px;
+    left: 58%;
+    
+    
+}
+.about .box3{
+    color: #F1D204 ;
+    
+    position: absolute;
+    top: 69.5px;
+    left: 77%;
+    
+    
+}
+.about .box4{
+    color: #6A4D8A ;
+    
+    position: absolute;
+    top: 69.5px;
+    left: 81%;
+    
+    
+}
+.progress{
+    overflow: visible !important;
+}
+.about .bg-success{
+    background-color: #F18B6D !important;
+}
+.about .bg-info{
+    background-color: #F1D204 !important;
+}
+.about .bg-warning{
+    background-color: #6A4D8A !important;
+}
+.about .num1{
+    border-radius: 5px;
+    background-color: #F18B6D;
+    position: relative;
+    left: 55%;
+    top:-20px;
+}
+.about .num2{
+    border-radius: 5px;
+    background-color: #FFDE00;
+    position: relative;
+    left: 75%;
+    top:-20px;
+}
+.about .num3{
+    border-radius: 5px;
+    background-color: #6A4D8A;
+    position: relative;
+    left: 79%;
+    top:-20px;
+}
+/* ---------- end about ------------ */
+/* ---------- porject ------------ */
+.projects{
+    background-image: url(../images/images/front-page/pattern.png);
+    /* height: 100vh; */
+}
+.projects img:hover{
+    opacity: .6;
+}
+.Testimonials{
+    background-image: url(../images/images/testiomnials-background.jpg);
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.Testimonials .carousel-item img{
+    border-radius: 50%;
+    width: 130px;
+}
+/* ---------- end porject ------------ */
+/* ---------- news ------------------- */
+.news {
+    background-color: #222F36;
+}
+.news .btn-warning:hover{
+    background-color: #6A4D89;
+    
+}
+.news .card a:hover{
+    text-decoration: none ;
+    color: #6A4D89 !important;
+}
+/* ----------- end news ------------- */
+/* ----------- box5 ------------- */
+.box5{
+    background-image: url(../images/images/front-page/front-page-counter.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 150px;
+}
+
+/* ----------- end box5 ------------- */
+/* ----------- team ------------- */
+.team{
+    background-image: url(../images/images/front-page/pattern.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+.team .row .row img{
+    border-radius: 50%;
+    
+}
+/* ----------- end team ------------- */
+/* --------- footer ----------- */
+.footer{
+    background-color: #292825;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #6A4D89;
+}
+
+/* --------- end footer ----------- */
